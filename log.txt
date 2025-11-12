@@ -1,0 +1,1035 @@
+10 Nov 2025 19:07:38,7300    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=HL7
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=https://apigw-test.sanita.marche.it/dd-extrasio-test/siocontext/O4C_TEST/KitFerriService
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+10 Nov 2025 19:07:38,74010   [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+10 Nov 2025 19:07:38,74010   [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+10 Nov 2025 19:07:38,77646   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./tra_sync.dbf
+10 Nov 2025 19:07:38,77646   [Thread-0] ERROR ITN_SYNC_SO.db.dbf.FileDBF  - *** Open Error : Unknown database file ./tra_sync.dbf
+10 Nov 2025 19:07:38,77747   [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot find dbf file "./tra_sync.dbf"
+10 Nov 2025 19:08:31,7570    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=https://apigw-test.sanita.marche.it/dd-extrasio-test/siocontext/O4C_TEST/KitFerriService
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+10 Nov 2025 19:08:31,7647    [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+10 Nov 2025 19:08:31,7658    [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+10 Nov 2025 19:08:31,80043   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./tra_sync.dbf
+10 Nov 2025 19:08:31,80144   [Thread-0] ERROR ITN_SYNC_SO.db.dbf.FileDBF  - *** Open Error : Unknown database file ./tra_sync.dbf
+10 Nov 2025 19:08:31,80144   [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot find dbf file "./tra_sync.dbf"
+10 Nov 2025 19:12:51,8160    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=https://apigw-test.sanita.marche.it/dd-extrasio-test/siocontext/O4C_TEST/KitFerriService
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+10 Nov 2025 19:12:51,8226    [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+10 Nov 2025 19:12:51,8226    [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+10 Nov 2025 19:12:51,85034   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./tra_sync.dbf
+10 Nov 2025 19:12:51,85135   [Thread-0] ERROR ITN_SYNC_SO.db.dbf.FileDBF  - *** Open Error : Unknown database file ./tra_sync.dbf
+10 Nov 2025 19:12:51,85135   [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot find dbf file "./tra_sync.dbf"
+10 Nov 2025 19:23:39,4260    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/v2/kitstatus
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+10 Nov 2025 19:23:42,8333407 [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+10 Nov 2025 19:23:44,3644938 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+10 Nov 2025 19:23:44,4595033 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+10 Nov 2025 19:23:45,2415815 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,2575831 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,2715845 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,2845858 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,2975871 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,3115885 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,3255899 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,3455919 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,3625936 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,3915965 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,4316005 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,4756049 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,5026076 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,5426116 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,5896163 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,6266200 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,6636237 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,6896263 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,7166290 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,7436317 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,7686342 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,7986372 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,8286402 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,8516425 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,8966470 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,9326506 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:45,9686542 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,0016575 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,0356609 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,0636637 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,0916665 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,1326706 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,1556729 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,1766750 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,1976771 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,2306804 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,2576831 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,2886862 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,3126886 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,3406914 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,3636937 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,3896963 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,4156989 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,4447018 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,4747048 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,5087082 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,5497123 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,5757149 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,5967170 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,6207194 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,6447218 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,6657239 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,6907264 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,7117285 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,7347308 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,7617335 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,7807354 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,7997373 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,8347408 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,8757449 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,9137487 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,9377511 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,9547528 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:46,9757549 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:47,0017575 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:47,0257599 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:47,0507624 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:47,0797653 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:47,0987672 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:47,1187692 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:47,1377711 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:23:47,1567730 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Nothing To Send
+10 Nov 2025 19:23:47,1577731 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+10 Nov 2025 19:23:52,65313227 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchTx()
+10 Nov 2025 19:26:56,9040    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/v2/kitstatus
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+10 Nov 2025 19:26:59,1292225 [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+10 Nov 2025 19:26:59,1292225 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+10 Nov 2025 19:27:02,5315627 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+10 Nov 2025 19:28:47,9130    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/v2/kitstatus
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+10 Nov 2025 19:28:49,9882075 [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+10 Nov 2025 19:28:49,9882075 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+10 Nov 2025 19:28:51,8713958 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+10 Nov 2025 19:29:21,70933796 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:31:49,6050    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/v2/kitstatus
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+10 Nov 2025 19:31:52,3532748 [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+10 Nov 2025 19:31:52,3532748 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+10 Nov 2025 19:31:56,1206515 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+10 Nov 2025 19:32:09,81320208 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:33:37,8581    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/v2/kitstatus
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+10 Nov 2025 19:33:46,3978540 [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+10 Nov 2025 19:33:46,3978540 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+10 Nov 2025 19:33:47,5939736 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+10 Nov 2025 19:33:47,97710120 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:35:15,00297145 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+10 Nov 2025 19:35:34,929117072 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+10 Nov 2025 19:36:19,085161228 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+10 Nov 2025 19:36:19,109161252 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 10:48:32,6320    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 10:48:32,6364    [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+11 Nov 2025 10:48:32,6364    [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 10:48:32,69664   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 10:48:33,596964  [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:33,7791147 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:33,9541322 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:34,1331501 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:34,3191687 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:34,4961864 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:34,6732041 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:34,8562224 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:35,0352403 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:35,2212589 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:35,4202788 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:35,5982966 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:35,7783146 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:35,9633331 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:36,1493517 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:36,3373705 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:36,5323900 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:36,7164084 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:36,8994267 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:37,0804448 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:37,2634631 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:37,4474815 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:37,6314999 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:37,8115179 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:37,9995367 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:38,1845552 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:38,3605728 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:38,5435911 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:38,7226090 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:38,8976265 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:39,0816449 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:39,2636631 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:39,4476815 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:39,6246992 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:39,8027170 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:39,9807348 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:40,1617529 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:40,3387706 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:48:40,5107878 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:49:16,7160    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 10:49:20,3453629 [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+11 Nov 2025 10:49:20,3463630 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 10:49:24,1257409 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 10:49:57,75541039 [Thread-0] ERROR ITN_SYNC_SO.ws.WsTxRx  - Web service response: null
+11 Nov 2025 10:53:03,0430    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 10:53:03,0518    [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+11 Nov 2025 10:53:03,0518    [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 10:53:03,08744   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:10:16,8770    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:10:16,90225   [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+11 Nov 2025 11:10:16,90225   [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:10:16,93457   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:13:23,6570    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:13:23,6592    [main] INFO  root  - ****************************************************
+progType=ORMAWIN
+rdbmsType=MSSQL
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:13:23,6658    [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+11 Nov 2025 11:13:23,6658    [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:13:23,68730   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:13:51,34027683 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:17,80754150 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:18,00054343 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:18,21054553 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:18,41354756 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:18,61554958 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:18,82455167 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:19,03655379 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:19,25655599 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:19,47355816 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:19,68656029 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:19,89056233 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:20,09656439 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:20,32256665 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:20,51556858 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:20,71257055 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:20,92157264 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:21,12357466 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:21,34257685 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:21,58557928 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:21,80158144 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:22,02058363 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:22,23658579 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:22,44258785 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:22,64358986 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:22,86759210 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:23,07859421 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:23,27359616 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:23,50259845 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:23,71760060 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:23,91260255 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:14:24,13060473 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Nothing To Send
+11 Nov 2025 11:14:24,13160474 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:14:24,13260475 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchTx()
+11 Nov 2025 11:14:29,13565478 [Thread-0] ERROR ITN_SYNC_SO.db.dbf.FileDBF  - Open Error ./dbtest/ow20_pars.dbf
+org.xBaseJ.xBaseJException: Unknown database file ./dbtest/ow20_pars.dbf
+	at org.xBaseJ.DBF.openDBF(DBF.java:305)
+	at org.xBaseJ.DBF.<init>(DBF.java:190)
+	at ITN_SYNC_SO.db.dbf.FileDBF.use(FileDBF.java:30)
+	at ITN_SYNC_SO.db.dbf.DBF_ow20_pars.openDateTime(DBF_ow20_pars.java:48)
+	at ITN_SYNC_SO.Engine.synchReceive(Engine.java:228)
+	at ITN_SYNC_SO.Engine.synchRx(Engine.java:142)
+	at ITN_SYNC_SO.Engine.runShareTableSync(Engine.java:60)
+	at ITN_SYNC_SO.Engine.run(Engine.java:41)
+11 Nov 2025 11:14:29,14465487 [Thread-0] ERROR ITN_SYNC_SO.db.dbf.DBF_ow20_pars  - Cannot find dbf file "./dbtest/ow20_pars.dbf"
+11 Nov 2025 11:19:06,5970    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:19:06,6014    [main] INFO  root  - ****************************************************
+progType=ORMAWIN
+rdbmsType=MSSQL
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:19:06,6047    [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+11 Nov 2025 11:19:06,6047    [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:19:06,62730   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:19:06,63538   [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:07,284687  [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:07,464867  [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:07,6551058 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:07,8331236 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:08,0211424 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:08,2041607 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:08,3891792 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:08,5751978 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:08,7552158 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:08,9372340 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:09,1142517 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:09,2922695 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:09,4712874 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:09,6603063 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:09,8393242 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:10,0293432 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:10,2053608 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:10,3833786 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:10,5543957 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:10,7354138 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:10,9154318 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:11,0984501 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:11,2744677 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:11,4564859 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:11,6335036 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:11,8155218 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:11,9935396 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:12,1665569 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:12,3445747 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:12,5325935 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:12,7116114 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:12,8866289 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:13,0646467 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:13,2466649 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:13,4296832 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:13,6157018 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:13,7987201 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:13,9737376 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:14,1587561 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:14,3387741 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:14,5147917 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:14,6918094 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:14,8678270 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:15,0588461 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:15,2408643 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:15,4168819 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:15,5979000 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:15,7839186 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:15,9689371 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:16,1469549 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:16,3219724 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:16,5039906 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:16,68110084 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:16,86110264 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:17,03910442 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:17,22010623 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:17,40010803 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:17,58210985 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:17,75811161 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:17,93511338 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:18,12611529 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:18,30511708 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:18,48611889 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:18,66212065 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:18,83712240 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:19,01512418 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:19,19312596 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:19,37112774 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:19,54612949 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:19,71813121 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 1 Records Sent
+11 Nov 2025 11:19:19,89913302 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Nothing To Send
+11 Nov 2025 11:19:19,90013303 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:19:19,90013303 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchTx()
+11 Nov 2025 11:19:24,90418307 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/ow20_pars.dbf
+11 Nov 2025 11:20:00,89154294 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:20:00,89254295 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:20:00,89254295 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:20:00,89254295 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchRx()
+11 Nov 2025 11:20:05,89259295 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:20:05,90059303 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:20:05,90459307 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Nothing To Send
+11 Nov 2025 11:20:05,90559308 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:20:05,90559308 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchTx()
+11 Nov 2025 11:20:10,90764310 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/ow20_pars.dbf
+11 Nov 2025 11:20:15,11168514 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:20:15,11268515 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:20:15,11268515 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:20:15,11268515 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchRx()
+11 Nov 2025 11:20:20,11273515 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:20:20,12173524 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:20:20,12673529 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Nothing To Send
+11 Nov 2025 11:20:20,12773530 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:20:20,12873531 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchTx()
+11 Nov 2025 11:20:25,13178534 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/ow20_pars.dbf
+11 Nov 2025 11:20:29,38182784 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:20:29,38282785 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:20:29,38282785 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:20:29,38282785 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchRx()
+11 Nov 2025 11:20:34,38387786 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:20:34,38887791 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:20:34,39387796 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Nothing To Send
+11 Nov 2025 11:20:34,39487797 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:20:34,39487797 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchTx()
+11 Nov 2025 11:20:39,39692799 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/ow20_pars.dbf
+11 Nov 2025 11:20:43,66997072 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:20:43,66997072 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:20:43,66997072 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:20:43,66997072 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchRx()
+11 Nov 2025 11:20:48,670102073 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:20:48,674102077 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:20:48,683102086 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Nothing To Send
+11 Nov 2025 11:20:48,684102087 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:20:48,684102087 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchTx()
+11 Nov 2025 11:20:53,687107090 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/ow20_pars.dbf
+11 Nov 2025 11:23:38,865272268 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:23:38,866272269 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:23:38,867272270 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:23:38,867272270 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchRx()
+11 Nov 2025 11:23:43,868277271 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:23:43,881277284 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:23:43,886277289 [Thread-0] INFO  ITN_SYNC_SO.Engine  - Nothing To Send
+11 Nov 2025 11:23:43,888277291 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:23:43,889277292 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchTx()
+11 Nov 2025 11:23:48,890282293 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/ow20_pars.dbf
+11 Nov 2025 11:23:53,306286709 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:23:53,306286709 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:23:53,306286709 [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Close DBF
+11 Nov 2025 11:23:53,307286710 [Thread-0] INFO  ITN_SYNC_SO.Engine  - sleep(5000) after synchRx()
+11 Nov 2025 11:42:41,7490    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:42:41,7512    [main] INFO  root  - ****************************************************
+progType=ORMAWIN
+rdbmsType=MSSQL
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:42:41,7567    [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+11 Nov 2025 11:42:41,7567    [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:42:41,80657   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:43:13,83932090 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:13,84032091 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:13,84032091 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:13,84032091 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:14,63732888 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:14,63732888 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:14,63732888 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:14,63732888 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:15,04733298 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:15,04833299 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:15,04833299 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:15,04833299 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:15,51633767 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:15,51733768 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:15,51733768 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:15,51733768 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:16,08334334 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:16,08334334 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:16,08434335 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:16,08434335 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:16,66234913 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:16,66234913 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:16,66234913 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:16,66334914 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:17,32435575 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:17,32535576 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:17,32535576 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:17,32535576 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:18,05036301 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:18,05036301 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:18,05036301 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:18,05136302 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:18,86937120 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:18,86937120 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:18,86937120 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:18,86937120 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:19,70237953 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:19,70237953 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:19,70337954 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:19,70337954 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:20,61538866 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:20,61638867 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:20,61738868 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:20,61838869 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:21,60839859 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:21,60939860 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:21,61039861 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:21,61139862 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:22,61840869 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:22,61840869 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:22,61840869 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:22,61840869 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:23,67441925 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:23,67541926 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:23,67541926 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:23,67641927 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:24,77743028 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:24,77743028 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:24,77743028 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:24,77743028 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:25,95744208 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:25,95844209 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:25,95844209 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:25,95944210 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:27,18045431 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:27,18045431 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:27,18145432 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:27,18145432 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:28,45046701 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:28,45046701 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:28,45046701 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:28,45046701 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:29,79748048 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:29,80148052 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:29,80248053 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:29,80248053 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:31,21049461 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:31,21049461 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:31,21149462 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:31,21149462 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:43:32,71050961 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:43:32,71050961 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:43:32,71150962 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:43:32,71150962 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:46:35,7260    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:46:35,7359    [main] INFO  root  - ****************************************************
+progType=ORMAWIN
+rdbmsType=MSSQL
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:46:35,73812   [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+11 Nov 2025 11:46:35,73812   [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:46:35,77347   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:47:07,81232086 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:47:07,81332087 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:47:07,81432088 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:47:07,81532089 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:49:00,010144284 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:49:00,014144288 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:49:00,016144290 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:49:00,018144292 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:00,0240    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:52:00,0295    [main] INFO  root  - ****************************************************
+progType=ORMAWIN
+rdbmsType=MSSQL
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+11 Nov 2025 11:52:00,04723   [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+11 Nov 2025 11:52:00,04723   [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+11 Nov 2025 11:52:00,11086   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=./dbtest/tra_sync.dbf
+11 Nov 2025 11:52:32,17932155 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:32,18232158 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:32,18332159 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:32,18432160 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:32,89132867 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:32,89232868 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:32,89332869 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:32,89332869 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:33,32633302 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:33,32633302 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:33,32633302 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:33,32633302 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:33,79233768 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:33,79233768 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:33,79233768 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:33,79333769 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:34,32934305 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:34,33034306 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:34,33034306 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:34,33034306 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:34,91934895 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:34,91934895 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:34,92034896 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:34,92034896 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:35,57235548 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:35,57335549 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:35,57335549 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:35,57335549 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:36,27036246 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:36,27036246 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:36,27036246 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:36,27036246 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:37,02637002 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:37,02637002 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:37,02737003 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:37,02737003 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:37,84137817 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:37,84237818 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:37,84237818 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:37,84237818 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:38,71438690 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:38,71438690 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:38,71538691 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:38,71538691 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:39,64739623 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:39,64839624 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:39,64839624 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:39,64839624 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:40,62140597 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:40,62240598 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:40,62240598 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:40,62240598 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+11 Nov 2025 11:52:41,66341639 [Thread-0] INFO  ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - Cannot connect to mssql server, url=jdbc:jtds:sqlserver://10.0.1.158:2664;databaseName=orcl
+11 Nov 2025 11:52:41,66441640 [Thread-0] ERROR ITN_SYNC_SO.db.rx.DbMsSqlTxRx  - *** Connection Error : Network error IOException: No route to host - 08S01 - 0
+11 Nov 2025 11:52:41,66441640 [Thread-0] ERROR ITN_SYNC_SO.Engine  - Cannot connect to mssql server
+11 Nov 2025 11:52:41,66441640 [Thread-0] INFO  ITN_SYNC_SO.Engine  - 1 Records Found, 0 Records Sent
+12 Nov 2025 12:09:16,3380    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+12 Nov 2025 12:09:16,3402    [main] INFO  root  - ****************************************************
+progType=ORMAWIN
+rdbmsType=MSSQL
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+12 Nov 2025 12:09:16,3446    [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+12 Nov 2025 12:09:16,3457    [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+12 Nov 2025 12:09:16,39961   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=tra_sync.dbf
+12 Nov 2025 12:09:34,0310    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+12 Nov 2025 12:09:34,04716   [main] INFO  root  - ****************************************************
+progType=ORMAWIN
+rdbmsType=MSSQL
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+12 Nov 2025 12:09:34,05019   [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+12 Nov 2025 12:09:34,05019   [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+12 Nov 2025 12:09:34,144113  [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=/home/lucio/Progetti/JitnSyncSO_5/dbtest/tra_sync.dbf
+12 Nov 2025 13:29:49,7080    [main] INFO  root  - ****************************************************
+progType=ORMAWIN_2
+rdbmsType=ORACLE
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+dbf_params=./dbtest/ow20_master.dbf
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+12 Nov 2025 13:29:49,72113   [main] INFO  root  - ****************************************************
+progType=ORMAWIN
+rdbmsType=MSSQL
+rdbmsIpAddress=10.0.1.158
+rdbmsPort=2664
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+txrx_type=0
+dbf_params=./dbtest/ow20_slave.dbf
+use_timestamp=yes
+sql_logger=yes
+debug_sql_logger=yes
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+wsApiKeyHeader=X-Gravitee-Api-Key
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+****************************************************
+
+
+12 Nov 2025 13:29:49,72820   [Thread-0] INFO  ITN_SYNC_SO.Engine  - *** Shared Tables Integration/Interfacing ***
+12 Nov 2025 13:29:49,72820   [Thread-0] INFO  ITN_SYNC_SO.Engine  - Running synchTx()
+12 Nov 2025 13:29:49,78779   [Thread-0] INFO  ITN_SYNC_SO.db.dbf.FileDBF  - Open DBF, file=/home/lucio/Progetti/JitnSyncSO_5/dbtest/tra_sync.dbf

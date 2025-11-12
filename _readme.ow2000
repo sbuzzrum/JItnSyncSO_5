@@ -1,0 +1,23 @@
+Stato attuale: 01/12/2009 dopo test in Genova.
+
+Modifiche effettuate dopo i test:
+
+a. Eliminata la gestione degli ICD9 (di comune accordo si e' deciso di non
+   importarli su Itineris; inoltre detti dati non sono disponibili al momen-
+   dell'aggiornamento della tabella di scambio_itineris da parte di Ormawin
+   ma in un momento successivo. Cio' comporta se si dovesse acquisire tale
+   dalla vista viewInterventi di doverli acquisire in differita con questo
+   criterio: riprovare l'acquisizione con una select per IDintervento finche'
+   il risultato e' un inseime vuoto.
+   
+b. Modificata l'assegnazione dell'utente db prima delle tabelle per
+   poter gestire il caso locale senza dbUtente
+   
+c. Sistemato l'errore in caso di tabella tra_sync vuota (caso za tabella) 
+   o IDspedizione, Command nulli (questo caso si presenta solo in caso di test
+   con inserimento manuale di un record di divisione.
+
+ToDo
+
+1.Il programma va spostato sulla 10.3 di test e testato.
+2.Il programma va testato con Genova via VPN

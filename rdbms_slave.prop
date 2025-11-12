@@ -1,0 +1,50 @@
+# PROG TYPE= [1=ORMAWIN] [2=DIGISTAT] [3=SIX] [4=NEGRAR] [5=ISMETT] [6=ORMAWIN_2]
+progType=1
+
+# RDBMS TYPE= [1=MSSQL] [2=ORACLE] [3=HL7]
+rdbmsType=1
+
+rdbmsIpAddress=10.0.1.158
+
+# TIPICAL PORT [1433= MSSQL] [1521=ORACLE]
+rdbmsPort=2664
+
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+rdbmsDbViewSale=vSALE2
+
+dbf_params=./dbtest/ow20_slave.dbf
+
+# tipo trasmissione (0=TX+RX, 1=solo TX, 2=solo RX) (TX not enabled se PROG TYPE=[6=ORMAWIN_2])
+txrx_type=0
+
+# usato solo per DIGISTAT
+use_timestamp=yes
+
+# logger di verifica x sql in entrata (yes/no)
+sql_logger=yes
+
+# developer bug search only (yes/no)
+debug_sql_logger=yes
+
+#----------------------------------------------------------------------
+# Parametri utili solo se PROG TYPE=[6=ORMAWIN_2]
+
+#API KEY HEADER
+wsApiKeyHeader=X-Gravitee-Api-Key
+
+#API ENDPOINT AMBIENTE DI TEST
+#wsApiEndpoint=https://apigw-test.sanita.marche.it/dd-extrasio-test/siocontext/O4C_TEST/KitFerriService
+wsApiEndpoint=http://10.0.1.31:8082/test/test
+
+#API ENDPOINT AMBIENTE DI PRODUZIONE
+#wsApiEndpoint=https://sio-apigw.sanita.marche.it/dd-extrasio-prod/siocontext/O4C_PROD/KitFerriService
+
+#API KEY AMBIENTE DI TEST
+wsApiKey=0e05482f-bd76-460b-9e3d-99de2b870054
+
+#API KEY AMBIENTE DI PRODUZIONE
+#wsApiKey=e75213a2-2e4c-4893-9213-a22e4cd8931b
+#----------------------------------------------------------------------

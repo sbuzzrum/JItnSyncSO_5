@@ -1,0 +1,11 @@
+MSH|^~\&|ITN||PCS|PCS|<DATETIME/>||ORU^R01|<SECONDS/>|D|2.3.1
+PID|||<DBF>COD_PAZIEN</DBF>|||||||||||||||
+OBR|1|<DBF>ID_KIT</DBF>||STEMAIN^Processo di Sterilizzazione^STE|||||||||||||||||||||||1^^^<DATETIME/>^^R
+OBX|1|ST|ST01^Lotto di produzione DM sterilizzato^STE||<DBF>ID_KIT</DBF>||||||F
+OBX|2|ST|ST02^Denominazione DM^STE||<DBF>DESC_KIT</DBF>||||||F
+OBX|3|ST|ST03^Codice DM^STE||<DBF>COD_KIT</DBF>||||||F
+OBX|4|ST|ST04^Lotto Sterilizzazione: Sterilizzatrice, Lotto Numero, Lotto Data^STE||<DBF>LOT_AUTO</DBF>^<DBF>LOT_NUM</DBF>^<DBF>LOT_DATA</DBF>||||||F
+OBX|5|ST|ST05^Data Produzione^STE||<DBF>DATA_PROD</DBF>||||||F
+OBX|6|ST|ST06^Data Scadenza^STE||<DBF>DATA_SCAD</DBF>||||||F
+OBX|7|ST|ST07^Data Consegna^STE||<DBF>DATA_CONS</DBF>||||||F
+OBX|8|ST|ST08^Data Ora Utilizzo^STE||<DBF>DATETIME</DBF>||||||F

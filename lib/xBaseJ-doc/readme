@@ -1,0 +1,673 @@
+
+xBaseJ - xBase (dBase) Access For Java
+
+Version 1.8.J
+
+
+----------------------------------------------------------------------
+
+American Coders, Ltd.
+Post Office Box 97462
+Raleigh, NC  27624  USA
+1-919-846-2014
+support@americancoders.com
+http://www.americancoders.com
+
+----------------------------------------------------------------------
+
+Provides classes and methods to access dbase III, IV and V format files,
+DBF, DBT, NDX and MDX extensions.
+
+All classes and methods are written in pure Java.  
+
+Note:
+  "we have not applied for the pure Java test from JavaSoft/Sun"
+ 
+
+----------------------------------------------------------------------
+
+
+
+Four classes of interest:
+   1.  dbf - provides methods for accessing the dbase file via Java's 
+   RandomAccessFile class.
+   2.  server - provides server machine interface via sockets.
+   3.  client\dbf - provides methods for accessing remote dbase files
+   from a client machine.
+   4. ndx - provides methods for accessing dbase NDX files.
+   5.  dbfHTML - simple java application to create a HTML report of a
+   dbf file.
+
+Other classes of interest:
+   1. field - not an interface but a class with which subclasses
+   provide strong typing.
+   2. charField.
+   3. dateField.
+   4. logicalField.
+   5. memoField.
+   6. numField.
+   7. floatField.
+
+----------------------------------------------------------------------
+
+Other files included:
+
+   1.  Sample Java and NetRexx programs.
+   2.  Registration information.
+
+
+----------------------------------------------------------------------
+Known bugs:
+
+  Problem with numeric and date index fields with MDX tags. For the 
+  time being, it's best just to use character fields for tags.
+
+  Inspire's jBuilder jit doesn't seem to like the create function.
+
+----------------------------------------------------------------------
+
+Comments please:
+
+   mailto:support@americancoders.com
+
+----------------------------------------------------------------------
+
+Installation:
+
+  1. Unzip xdbfj18H.zip into a unique directory.   If you're reading 
+  this you have already unzipped.
+  2. Add the file xBaseJ.jar to your classpath. 
+  3. To test try the dbfShow class against the supplied test.dbf
+      -  java dbfShow
+      You will be prompted via the FileDialog for the filename.
+----------------------------------------------------------------------
+
+java version compiled with:
+  JAVA.EXE version "JDK 1.1.7a"
+
+----------------------------------------------------------------------
+
+Caveats:
+
+Program has only been tested on the Intel machine platform 
+       (System.getProperty("os.arch").compareTo("x86") == 0) 
+
+Any problems you experience should be reported as soon as possible.
+
+This is not a JDBC/ODBC interface.
+
+
+----------------------------------------------------------------------
+
+Sample programs:
+     Included are two groups of sample programs. Each group contains
+     the same three programs
+
+     Java group: 
+     1. createDBFS.java - creates the dbfs.dbf database. This dbf 
+        is used by the Server class to determine what files are
+        available to the client class.
+     2. testread.java - will dump a dbf out.
+     3. pack.java - will pack a dbf (remove records marked as
+        deleted).
+
+
+     NetRexx group: 
+     1. createDBFS.nrx - creates the dbfs.dbf database.  This dbf 
+        is used by the Server class to determine what files are
+        available to the client class.
+     2. testread.nrx - will dump a dbf out.
+     3. pack.nrx - will pack a dbf (remove records marked as deleted).
+        - NetRexx is a dialect of Java that fully supports the 
+          java language.  For more information go to 
+          http://www2.hursley.ibm.com/netrexx/
+
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+
+American Coders, Ltd.
+Post Office Box 97462
+Raleigh, NC  27624  USA
+1-919-846-2014
+sales@americancoders.com
+http://www.americancoders.com
+
+---------------------------------------------------------------------
+
+November 18, 1999
+
+Release 1.8.J
+
+1.  dBase memo files not closed from the DBF.close method
+
+
+
+---------------------------------------------------------------------
+
+
+Release 1.8.I
+
+   not released
+
+---------------------------------------------------------------------
+
+
+
+
+---------------------------------------------------------------------
+
+November 8, 1999
+
+Release 1.8.H
+
+1.  dBase III memo fields - every 512 character dropped
+
+---------------------------------------------------------------------
+
+
+November 1, 1999
+
+Release 1.8.G
+
+1.  dBase III memo fields could not be saved with lengths 
+greater than 512.
+
+2. New algorithm implemented for NumField to remove
+floating point formatting problem.
+
+---------------------------------------------------------------------
+
+October 11, 1999
+
+Release 1.8.F
+
+1.  When creating a DBT file the skipBytes function 
+didn't work correctly.  Bug first noticed into Macintosh
+version of Java.  
+
+---------------------------------------------------------------------
+
+September 30, 1999
+
+Release 1.8.E
+
+1. When renaming temporary files in DBT methods, if
+the DBT file already existed then the rename would not
+work
+
+---------------------------------------------------------------------
+
+September 16, 1999
+
+Release 1.8.D
+
+1. Build process missed several class files.
+Shareware version only.
+
+---------------------------------------------------------------------
+
+September 4, 1999
+
+Release 1.8.C
+
+1. Problem when adding fields to dbf when dbf was
+not in local directory.
+
+
+---------------------------------------------------------------------
+
+August 9, 1999
+
+Release 1.8.B
+
+1.  dBase III memo fields still had encoding problem.
+
+2.  Fixed problem with dbfs built with JBuilder and packing.
+
+---------------------------------------------------------------------
+
+June 9, 1999
+
+Release 1.8.A
+
+1.  dBase IV files allow 255 fields in a dbf.   Package
+was using 128 limit.   Problem revisited.
+
+2.  Added logic to preclose MDX file when recreating.
+
+---------------------------------------------------------------------
+
+May 11, 1999
+
+Release 1.8.9
+
+1.  dBase IV files allow 255 fields in a dbf.   Package
+was using 128 limit.
+
+---------------------------------------------------------------------
+
+April 2, 1999
+
+Release 1.8.8
+
+1.  Date 2000-02-29 was reported as a bad date.
+
+---------------------------------------------------------------------
+
+March 5, 1999
+
+Release 1.8.7a
+
+1. dbfShow class incorrectly installed into jar file.
+
+---------------------------------------------------------------------
+
+February 24, 1999
+
+Release 1.8.7
+
+Editor's Note: I do hope that this is the last of the updates to
+this release.
+ 
+1.  Perseverance pays off.  The character encoding problem 
+brought on by java 1.1.7 has been fixed.  
+
+2.  Field and indexes with character values greater than 127
+were truncated.
+
+3.  Pack had a problem with duplicate indexes crossing over
+index nodes.
+
+---------------------------------------------------------------------
+
+February 16, 1999
+
+Release 1.8.6
+
+1.  Due to the my inability to correct the character encoding problem 
+brought on by java 1.1.7.  I have reverted back to java 1.1.6.
+
+2.  Numeric indexes not written correctly.
+
+----------------------------------------------------------------------
+
+February 13, 1999
+
+Release 1.8.5
+
+1.  Sun documentation incorrect.  String conversion should use
+encoding specification of "8859_1" without the ISO prefix.
+
+----------------------------------------------------------------------
+
+February 5, 1999
+
+Release 1.8.4
+
+Not released
+----------------------------------------------------------------------
+
+February 4, 1999
+
+Release 1.8.3
+
+1.  File encoding method fixed in 1.8.2 still used default encoding.  
+This doesn't work in WIN32.  To guarantee duplex encoding for all
+codes byte->string conversions use "ISO8859_1".  This bug manifested 
+by using java 1.1.7 compiler.
+
+
+----------------------------------------------------------------------
+
+January 31, 1999
+
+Release 1.8.2
+
+1.  File encoding was added to JAVA 1.1.7.  Added file encoding logic to
+methods doing byte->string conversion.
+
+2..  Second level indexes missing pointer to last MDX node.
+
+----------------------------------------------------------------------
+
+January 15, 1999
+
+Release 1.8.1
+
+1.  Corrected bug with field name vaildation.
+
+----------------------------------------------------------------------
+
+January 8, 1999
+
+Release 1.8.0
+
+1.  Mutliple Tag problem fixed.
+
+2.  Update to Tags and Indexes Fixed
+
+3.  Renamed several methods and deprecated old names.
+      field classes' methods:
+        getType() replaces type()
+        getDecimalPositionCount() replaces decPoint()
+        getName replaces() name()
+        getLength() replaces length()
+      DBF methods:
+        getFieldCount replaces fldcount()
+        getCurrentRecordNumber replaces recno()
+        getRecordCount replaces reccount()
+
+
+
+Dec 8, 1998
+
+Release 1.7.3.
+
+1.  Cleaned up indexing logic.
+
+2.  Prevented secondary close to dbf during gc stage.
+
+3.  Memo field error.
+
+
+Oct 2, 1998
+
+Release 1.7.2.
+
+1. dBase IV files with memo fields never created as dbase IV files.
+
+2. Reading memo fields include extraneous 8 characters.
+
+3. Snareware version wouldn't allow more the 5 fields to be added.
+
+4. Expiry logic updated.
+
+5. dBase IV logic now throws an exception if the mdx file can not be 
+found.
+
+----------------------------------------------------------------------
+
+Sept 21, 1998
+
+Release 1.7.1.
+
+1. MemoFIeld - DBT file logic error on empty memo text.
+
+2. Replaced getAbsolutePath for named passed to initializer.
+
+3. Removed dbfShow (see #3 1.7.0).  Might try to put it back in later.
+
+----------------------------------------------------------------------
+
+Sept 15, 1998
+
+Release 1.7.0.
+
+1. Made the version method a class method.
+
+2. Negative sign dropped on numFields and floatFields.
+
+3. Added dbfShow to the Class Files for both single user and client 
+   code. to run single user, run the following command:
+              java xBaseJ.dbfShow
+     as an alternative you can specify the dbf name on the command 
+     line as follows:
+              java  xBaseJ.dbfShow test.dbf
+   to run the client version run the following command:
+              java xBaseJ.Client.dbfShow xxxxx  yyyyy zzzzz
+                    where xxxxx is the dbf name
+                              yyyyy is the host name where the 
+                                         xBaseJ.Server program is 
+                                         running
+                              zzzzz is the  port number where the 
+                                         xBaseJ.Server is listening.
+
+4. Snareware version of package expires 1998-12-31.
+
+Note: Users of jBuilder - problems persist with jBuilder, java 1.1.6
+and adding fields to database and/or creating dbfs.
+
+----------------------------------------------------------------------
+
+
+July 11, 1998
+
+Release 1.6.2
+
+1. When creating a dbf, required dbf suffix to be capitalized. 
+   Since removed.
+
+2. NDX nodes overwritting node count when key size was not a multiple 
+   four.
+
+3. If a NDX was created without any data in existing dbf then first  
+   set of key fields were lost when dbf written to the first time.
+
+----------------------------------------------------------------------
+
+June 16, 1998
+
+Release 1.6.1
+
+1. Memo field pointers incorrectly defined creating  a corrupted database.
+
+----------------------------------------------------------------------
+
+May 31, 1998
+
+Release 1.6.0
+
+1. Removed all references to deprecated 1.0.x JAVA methods.
+
+2. Added readonly capability to DBF and associated files.
+
+3. The find method now returns a boolean, if it returns true then the 
+   exact key was found
+
+4. Added table and record locking in Server package.   The methods are 
+   available through the Client DBF class. Locking is not used by the 
+   stand-alone version.
+
+5. Snareware version of package expires 1998-10-31.
+
+
+----------------------------------------------------------------------
+
+March 31, 1998
+
+Release 1.5.2
+
+1. Update logic inserted duplicate index and tag values.
+
+2. Introduced new class FloatField for Borland's dBase IV.
+
+3. Packing didn't reset current record pointer.
+
+
+----------------------------------------------------------------------
+
+March 15, 1998
+
+Release 1.5.1
+
+1. MDX Logic failed for some packing methods.
+
+2. MDX tags left out of the Server class.  Added useTagByID to DBF class.
+
+3. NDX and MDX set position incorrectly at end of indexes.
+
+----------------------------------------------------------------------
+
+March 1, 1998
+
+Release 1.5.0
+
+1. Introduced two new private classes to handle dbase V mdx file format.  
+   Applied classes to all index formats.
+
+2. Improved mdx tag for tags defined as date and/or numeric.
+
+3. Corrected problem with unique keys.
+
+4. Corrected error with indexes at the cusp.
+
+5. Regression test errors showed failures with dbase IV file formats.
+
+
+----------------------------------------------------------------------
+
+February 12, 1998
+
+Release 1.4.3..  Released only to registered users.
+
+1. Duplicate creating errors.
+
+2. Removed debugging logic.
+
+----------------------------------------------------------------------
+February 11, 1998
+
+Release 1.4.3.
+
+1. Change NumField decpoint parameter from byte to int.
+
+2. Add dbf method version.  Returns current version of xBaseJ.
+
+3. Corrected error with index values being 'unique'.
+
+4. Left debugging code in classes that cause unnecessary output and exceptions.
+
+5. Indexes not reliable when used immediately after packing.
+
+----------------------------------------------------------------------
+February 4, 1998
+
+Release 1.4.2.
+
+1. Internal Index Node classes - offset logic error.
+
+----------------------------------------------------------------------
+January 30, 1998.
+
+Release 1.4.1.
+
+1. findPrev sometimes returned with xBaseJExcepction - Bad Record
+Number 0.
+
+2. problem when creating ndx or mdx tags with data and then adding 
+more after create. 
+
+3. problem with unique flag - bug did the opposite checking.
+
+4. added new method to create a DBF, constructor method accepts
+DBASEIII/DBASEIV file format option.  Option appears before 
+the destroy parameter. Original constructor to create a DBF
+assumes dbase III file format.
+
+5. added destroy option to createIndex method. Like the DBF 
+destroy parameter used to indicate OK to replace NDX file.
+
+6. clean-up of documentation, expecially in the client classes.
+
+7. reindex failed to add last group of indexs to tree.
+
+8. added startTop and startBottom methods for index and record positioning.
+
+9. added dbfHTML application.
+
+-------------------
+
+January 15, 1998
+
+Release 1.4.0.
+
+0. RENAMED ALL PUBLIC CLASESS TO FOLLOW JAVA CODING STANDARD.
+
+1. Restarted numbering system using x.y.z format.
+
+2. Corrected bug when creating DBT file dBase IV format - substring 
+index out of bounds
+
+3. Added method getKeyFields to index class.
+
+4. Corrected bug when packing a database in a different directory - 
+New dbf was empty and it left temp.tmp in the current directory.
+
+5. Added file closing to dbt and index files when dbf closed and in 
+class finalize method.
+
+6. Corrected packing bug - memoFields could not use the dbt file 
+unless class reinitialized.
+
+7. Corrected bug for MAC/OS - skipBytes don't work if file is being 
+created and there is nowhere for skipBytes to go to.
+
+8. Corrected bug with index - dbfs opened with one index had failure
+writing/updating to index file.
+
+9. Changed return from useIndex - some methods returned an index 
+object some had a void - all now return an index object.
+
+-------------------
+December 30, 1997
+
+Release 1.3.1 Beta.
+
+1. Replaced getName with getAbsolutePath in dbf class.  
+   Used by dbt and mdx classes to get the path name for these files.  
+   Problems occured when accessing a dbf not in the current path.
+
+2. dbfShow now uses GridBagLayout instead of GridBag.
+
+3. NDX and MDX logic error corrected.
+
+
+December 15, 1997
+
+Release 1.30 Beta.
+
+1. dBase IV file format support - dbt, dbf and mdx.
+   limitted mdx support -  does not support logic in key
+   definition and others.
+2. Changed the class behavior of ndx.  You should now use 
+   index class when referencing NDX files and MDX tags.
+3. Clean up of minor bugs in previous releases.
+
+
+
+September 30, 1992
+
+Release 1.20 Beta
+
+1. Corrected dbfShow when used with Java 1.1
+2. Correced dbfShow and added packing menu itme.
+3. Corrected packing algorithm in DBF and DBT.
+4. Added NDX file format
+
+
+September 15, 1997
+
+Release 1.10 Beta 
+
+1. Release beta package.
+
+----------------------------------------------------------------------
+
+Future releases planned:
+
+1. views.
+2. sql.
+3. jdbc interface.
+4. Clipper files.
+
+
+----------------------------------------------------------------------
+
+
+Copyright 1997-99 - American Coders, Ltd.  Raleigh, NC  USA
+All rights reserved.
+
+

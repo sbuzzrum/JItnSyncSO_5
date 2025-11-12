@@ -1,0 +1,15 @@
+- Deriva da OW2000
+- Versione unificata di sincronizzazione con programmi esterni di gestione Sala Operatoria.
+
+- Gestione OW2000   su MSSQL
+- Gestione OW2000   su ORACLE
+- Gestione DIGISTAT su MSSQL
+
+
+./package   Ambiente da distribuire: jar, lib, dbf, prop, conf
+            (da aggiornare manualmente dalla cartella build)
+./test      Ambiente di test per IDE : dbf, prop, conf
+./sql_ddl   Strutture dati
+
+Driver Oracle:  ojdbc5   -> jdk 1.5
+                ojdbc6_g -> jdk 1.6

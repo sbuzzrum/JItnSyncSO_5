@@ -1,0 +1,13 @@
+logger_params=./logger.properties
+
+# Pattern File HL7
+hl7PatternFile=./pattern.hl7
+
+# Tabelle Itineris
+dbf_tra_sync=./dbtest/tra_sync.dbf
+dbf_tkt_sync=./dbtest/tkt_sync.dbf
+dbf_use_sync=./dbtest/use_sync.dbf
+dbf_params=./dbtest/ow20_pars.dbf
+
+tx_only=no
+

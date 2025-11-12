@@ -1,0 +1,292 @@
+<!-- Automatically generated with polardoc Version 1.0.7 on Fri Jan 08 08:46:53 EST 1999 -->
+<!-- xBaseJ.DateField | Do not remove or edit this line! -->
+<STYLE TYPE="text/css"> <!-- A.nound {text-decoration:none; color:black} --> </STYLE>
+<HTML>
+<HEAD>
+<TITLE>
+  Class xBaseJ.DateField
+</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#0000FF" ALINK="#0000FF">
+<A NAME="_top_"></A>
+<PRE>
+<A HREF="Packages.html">All Packages</A>  <A HREF="Package-xBaseJ.html">This Package</A>  <A HREF="Tree.html">Class Hierarchy</A>  <A HREF="Search.html">Class Search</A>  <A HREF="AllNames.html">Index</A>
+</PRE>
+<HR SIZE=1 ALIGN=left WIDTH="98%">
+<B><FONT FACE="Arial,Helvetica" SIZE=+2>
+     Class xBaseJ.DateField
+</FONT></B>
+<PRE>
+<A HREF="java.lang.Object.html">java.lang.Object</A>
+   |
+   +----<A HREF="xBaseJ.Field.html">xBaseJ.Field</A>
+           |
+           +----xBaseJ.DateField
+</PRE>
+<P><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Summary</B></FONT></TD> </TR> </TABLE>
+<A NAME="_Summary_"></A>
+<PRE>
+public class  <STRONG>DateField</STRONG>
+     extends xBaseJ.<A HREF="xBaseJ.Field.html">Field</A>
+{
+          // Constructors 1
+     public <A HREF="#DateField(java.lang.String)">DateField</A>(<A CLASS=nound HREF="java.lang.String.html">String</A>) throws <A CLASS=nound HREF="java.io.IOException.html">IOException</A>, <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+
+          // Methods 11
+     public int <A HREF="#compareTo(java.util.Calendar)">compareTo</A>(<A CLASS=nound HREF="java.util.Calendar.html">Calendar</A>) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public int <A HREF="#compareTo(xBaseJ.DateField)">compareTo</A>(<A CLASS=nound HREF="xBaseJ.DateField.html">DateField</A>);
+     public <A CLASS=nound HREF="java.lang.String.html">String</A> <A HREF="#get(int)">get</A>(int) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public <A CLASS=nound HREF="java.util.Calendar.html">Calendar</A> <A HREF="#getCalendar()">getCalendar</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public char <A HREF="#getType()">getType</A>();
+     public void <A HREF="#put(java.lang.String)">put</A>(<A CLASS=nound HREF="java.lang.String.html">String</A>) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public void <A HREF="#put(java.util.Calendar)">put</A>(<A CLASS=nound HREF="java.util.Calendar.html">Calendar</A>) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public void <A HREF="#put(java.util.Date)">put</A>(<A CLASS=nound HREF="java.util.Date.html">Date</A>) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public void <A HREF="#put(long)">put</A>(long) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public void <A HREF="#set(int, int)">set</A>(int, int) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     <STRIKE>public char <A HREF="#type()">type</A>()</STRIKE>;
+}
+</PRE>
+<P>
+<P>
+<BR><BR>
+<BR><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Constructors</B></FONT></TD> </TR> </TABLE>
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="DateField"><FONT COLOR="#FFCC00">&middot;</FONT></A>
+<A NAME="DateField(java.lang.String)">DateField</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public DateField(<A HREF="java.lang.String.html">String</A> iName)  throws <A HREF="java.io.IOException.html">IOException</A>, <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+public method for creating a DateField object.  It is not associated with a database 
+ but can be when used with some DBF methods.
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> Name</I></TD> <TD>the name of the field</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> exception caused in calling methods
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> can not occur but defined for calling methods
+</DL>
+<P> <B>See Also:</B>
+<A HREF="xBaseJ.Field.html">Field</A></BLOCKQUOTE> <BR>
+
+
+<BR><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Methods</B></FONT></TD> </TR> </TABLE>
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="type"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="type()">type</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public char type() </PRE>
+<BLOCKQUOTE>
+<DL>
+<B>Note: type() is deprecated</B>
+&#151 <I>use getType</I>
+<P>
+return the character 'D' indicating a date field
+<P>
+<DT><B>Overrides:</B>
+<DD><A HREF="xBaseJ.Field.html#type()">type</A> in class <A HREF="xBaseJ.Field.html">Field</A>
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getType"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getType()">getType</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public char getType() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+return the character 'D' indicating a date field
+<P>
+<DT><B>Overrides:</B>
+<DD><A HREF="xBaseJ.Field.html#getType()">getType</A> in class <A HREF="xBaseJ.Field.html">Field</A>
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="put"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="put(java.lang.String)">put</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void put(<A HREF="java.lang.String.html">String</A> inValue)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+sets field contents by a String parameter.
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> inValue</I></TD> <TD>String value to store - format CCYYMMDD</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> most likely a format error
+<DT><B>Overrides:</B>
+<DD><A HREF="xBaseJ.Field.html#put(java.lang.String)">put</A> in class <A HREF="xBaseJ.Field.html">Field</A>
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="put"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="put(java.util.Date)">put</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void put(<A HREF="java.util.Date.html">Date</A> inValue)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+sets field contents by a Java Date object.
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> inValue</I></TD> <TD>java.util.Date value to store</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> most likely a format error
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="put"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="put(java.util.Calendar)">put</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void put(<A HREF="java.util.Calendar.html">Calendar</A> inValue)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+sets field contents by a Java Calendar object.
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> inValue</I></TD> <TD>java.util.Calendare value to store</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> most likely a format error
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="put"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="put(long)">put</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void put(long inValue)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+sets field contents by a long value
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> inValue</I></TD> <TD>long value to store - format CCYYMMDD</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> most likely a format error
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="compareTo"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="compareTo(xBaseJ.DateField)">compareTo</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int compareTo(<A HREF="xBaseJ.DateField.html">DateField</A> compareThis) </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+public method for comparing a DateField object.
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> compareThis</I></TD> <TD>the other DateField object to compare</TD></TR>
+</TABLE><P>
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="compareTo"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="compareTo(java.util.Calendar)">compareTo</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int compareTo(<A HREF="java.util.Calendar.html">Calendar</A> compareThis)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+public method for comparing a Java Calendar object.
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> compareThis</I></TD> <TD>the Date object to compare</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> exception caused in calling methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getCalendar"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getCalendar()">getCalendar</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public <A HREF="java.util.Calendar.html">Calendar</A> getCalendar()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+public method for returing the date field in a Java Calendar object.
+<P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> exception caused in calling methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="get"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="get(int)">get</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public <A HREF="java.lang.String.html">String</A> get(int field)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+public method for getting individual field values
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> field</I></TD> <TD>id, use Calendar.YEAR, Calendar.MONTh, Calendar.DAY_OF_MONTH</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> exception caused in calling methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="set"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="set(int, int)">set</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void set(int field, 
+                   int value)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+public method for setting individual field values
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> field</I></TD> <TD>use Calendar.YEAR, Calendar.MONTh, Calendar.DAY_OF_MONTH</TD></TR>
+<TR VALIGN=TOP> <TD><I> value</I></TD> <TD>- int value to set field</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> exception caused in calling methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+
+<HR SIZE=1 ALIGN=left WIDTH="98%">
+<PRE>
+<A HREF="Packages.html">All Packages</A>  <A HREF="Package-xBaseJ.html">This Package</A>  <A HREF="Tree.html">Class Hierarchy</A>  <A HREF="Search.html">Class Search</A>  <A HREF="AllNames.html">Index</A>
+</PRE>
+<FONT FACE="Arial,Helvetica" SIZE=-2>
+Freshly brewed Java API Documentation automatically generated with <A HREF="http://www.ualberta.ca/~tgee/polardoc">polardoc</A> Version 1.0.7
+<BR>
+</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,48 @@
+import java.awt.
+import xBaseJ.
+
+options trace
+
+if arg.length = 0 then signal Exception("Missing DBF file name")
+
+aDBF = xBaseJ.DBF
+f = xBaseJ.Field
+
+i=int
+j=int
+aDBF = xBaseJ.DBF(arg[0])
+
+say "Name " aDBF.getName()
+
+loop i = 1 to aDBF.fldcount 
+  f =  aDBF.getField(i)
+  say f.name f.type() f.length() f.decpoint()
+  say
+end
+
+
+loop i = 1 to aDBF.reccount
+ zip = String
+ say 'Will read ' i   ' of ' aDBF.reccount
+ aDBF.gotoRecord(i)
+ loop j = 1 to aDBF.fldcount
+  f =  aDBF.getField(j)
+  say f.name  f.get() " "
+ end
+end
+
+loop i = aDBF.reccount to 1 by -1
+ say 'Will by goto at ' i
+ aDBF.gotoRecord(i)
+ loop j = 1 to aDBF.fldcount
+  f =  aDBF.getField(j)
+  say f.name  f.get() " "
+ end
+end
+say 'Exitting'
+
+exit
+
+
+
+

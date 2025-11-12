@@ -1,0 +1,34 @@
+# PROG TYPE= [1=ORMAWIN] [2=DIGISTAT] [3=SIX] [4=NEGRAR] [5=ISMETT]
+progType=1
+
+# RDBMS TYPE= [1=MSSQL] [2=ORACLE] [3=HL7]
+rdbmsType=2
+
+rdbmsIpAddress=10.0.1.94
+
+# TIPICAL PORT [1433= MSSQL] [1521=ORACLE]
+rdbmsPort=1521
+
+rdbmsDbName=orcl
+rdbmsUsername=ITINERIS
+rdbmsPassword=ITINERIS
+rdbmsDbUsername=itineris
+
+# Pattern File HL7
+hl7PatternFile=./pattern.hl7
+
+# Tabelle Itineris
+dbf_tra_sync=./tra_sync.dbf
+dbf_tkt_sync=./tkt_sync.dbf
+dbf_use_sync=./use_sync.dbf
+dbf_params=./ow20_pars.dbf
+
+logger_params=./logger.conf
+tx_only=no
+
+# usato solo per DIGISTAT
+use_timestamp=yes
+
+# 1=yes else=no
+sql_logger=1
+

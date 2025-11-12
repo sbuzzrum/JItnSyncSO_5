@@ -1,0 +1,4 @@
+MSH|^~\&|BTS|BTS|PCS|PCS|20151124080954||ORU^R01|1448348994580|D|2.3.1
+PID|||VIT00000AAAA^^^MRN||TEST^PATIENT||19530904|M||||||||||HST000006BBB5^^^Visit Number
+OBR|1||1-18411^SUR|A1000^Surgical Report^ORREG|||||||||||||||||||||F||1^^^20151123210000^^R
+OBX|1|RP|A1000Z^Surgical Procedure Report^ORREG|1|http://orreg2010.ismett.edu/secure/pdf?reportId=5545454ygtg8dda-d684d3cd9dba^^Image&Z0004||||||F|||20151123210000

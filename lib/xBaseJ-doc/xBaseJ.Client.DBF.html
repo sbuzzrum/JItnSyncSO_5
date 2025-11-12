@@ -1,0 +1,594 @@
+<!-- Automatically generated with polardoc Version 1.0.7 on Fri Jan 08 08:46:53 EST 1999 -->
+<!-- xBaseJ.Client.DBF | Do not remove or edit this line! -->
+<STYLE TYPE="text/css"> <!-- A.nound {text-decoration:none; color:black} --> </STYLE>
+<HTML>
+<HEAD>
+<TITLE>
+  Class xBaseJ.Client.DBF
+</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#0000FF" ALINK="#0000FF">
+<A NAME="_top_"></A>
+<PRE>
+<A HREF="Packages.html">All Packages</A>  <A HREF="Package-xBaseJ.Client.html">This Package</A>  <A HREF="Tree.html">Class Hierarchy</A>  <A HREF="Search.html">Class Search</A>  <A HREF="AllNames.html">Index</A>
+</PRE>
+<HR SIZE=1 ALIGN=left WIDTH="98%">
+<B><FONT FACE="Arial,Helvetica" SIZE=+2>
+     Class xBaseJ.Client.DBF
+</FONT></B>
+<PRE>
+<A HREF="java.lang.Object.html">java.lang.Object</A>
+   |
+   +----xBaseJ.Client.DBF
+</PRE>
+<P><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Summary</B></FONT></TD> </TR> </TABLE>
+<A NAME="_Summary_"></A>
+<PRE>
+public class  <STRONG>DBF</STRONG>
+     extends java.lang.<A HREF="java.lang.Object.html">Object</A>
+{
+          // Constructors 1
+     public <A HREF="#DBF(java.lang.String, java.lang.String, int)">DBF</A>(<A CLASS=nound HREF="java.lang.String.html">String</A>, <A CLASS=nound HREF="java.lang.String.html">String</A>, int) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>, <A CLASS=nound HREF="java.net.UnknownHostException.html">UnknownHostException</A>;
+
+          // Methods 24
+     public void <A HREF="#close()">close</A>() throws <A CLASS=nound HREF="java.io.IOException.html">IOException</A>, <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public void <A HREF="#delete()">delete</A>() throws <A CLASS=nound HREF="java.io.IOException.html">IOException</A>, <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public boolean <A HREF="#deleted()">deleted</A>() throws <A CLASS=nound HREF="java.io.IOException.html">IOException</A>, <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public boolean <A HREF="#find(java.lang.String)">find</A>(<A CLASS=nound HREF="java.lang.String.html">String</A>) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     public void <A HREF="#findNext()">findNext</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     public void <A HREF="#findPrev()">findPrev</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     <STRIKE>public int <A HREF="#fldcount()">fldcount</A>()</STRIKE>;
+     public int <A HREF="#getCurrentRecordNumber()">getCurrentRecordNumber</A>();
+     public <A CLASS=nound HREF="xBaseJ.Client.Field.html">Field</A> <A HREF="#getField(int)">getField</A>(int) throws <A CLASS=nound HREF="java.lang.ArrayIndexOutOfBoundsException.html">ArrayIndexOutOfBoundsException</A>, <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public <A CLASS=nound HREF="xBaseJ.Client.Field.html">Field</A> <A HREF="#getField(java.lang.String)">getField</A>(<A CLASS=nound HREF="java.lang.String.html">String</A>) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.lang.ArrayIndexOutOfBoundsException.html">ArrayIndexOutOfBoundsException</A>;
+     public int <A HREF="#getFieldCount()">getFieldCount</A>();
+     public <A CLASS=nound HREF="java.lang.String.html">String</A> <A HREF="#getName()">getName</A>();
+     public int <A HREF="#getRecordCount()">getRecordCount</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     public void <A HREF="#gotoRecord(long)">gotoRecord</A>(long) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     public void <A HREF="#read()">read</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     public void <A HREF="#readPrev()">readPrev</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     <STRIKE>public int <A HREF="#reccount()">reccount</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A></STRIKE>;
+     <STRIKE>public int <A HREF="#recno()">recno</A>()</STRIKE>;
+     public void <A HREF="#setLock(boolean)">setLock</A>(boolean) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     public void <A HREF="#setRecordLock(boolean)">setRecordLock</A>(boolean) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     public void <A HREF="#undelete()">undelete</A>() throws <A CLASS=nound HREF="java.io.IOException.html">IOException</A>, <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public void <A HREF="#update()">update</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     public void <A HREF="#useIndex(java.lang.String)">useIndex</A>(<A CLASS=nound HREF="java.lang.String.html">String</A>) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+     public void <A HREF="#write()">write</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A CLASS=nound HREF="java.io.IOException.html">IOException</A>;
+}
+</PRE>
+<P>
+<DL>
+<P>
+xBaseJ - java access to dBase files 
+<p>Copyright 1997-1999 - American Coders, LTD  - Raleigh NC USA
+<p>All rights reserved
+<p>Currently supports only dBase III format DBF, DBT and NDX files 
+<p>                        dBase IV format DBF, DBT, MDX and NDX files 
+<p>American Coders, Ltd
+<br>P. O. Box 97462
+<br>Raleigh, NC  27615  USA
+<br>1-919-846-2014
+<br>http://www.americancoders.com
+<P>
+<DT><B>Version:</B>
+<DD>1.8.0
+<DT><B>Author:</B>
+<DD>
+Joe McVerry, American Coders Ltd.
+
+</DL>
+<P>
+<BR><BR>
+<BR><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Constructors</B></FONT></TD> </TR> </TABLE>
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="DBF"><FONT COLOR="#FFCC00">&middot;</FONT></A>
+<A NAME="DBF(java.lang.String, java.lang.String, int)">DBF</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public DBF(<A HREF="java.lang.String.html">String</A> inDBFname, 
+              <A HREF="java.lang.String.html">String</A> inhost, 
+              int inport)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A>, <A HREF="java.net.UnknownHostException.html">UnknownHostException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+opens a DBF at the server
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> DBFname</I></TD> <TD>database as defined on the server</TD></TR>
+<TR VALIGN=TOP> <TD><I> inhost</I></TD> <TD>host name or ip address</TD></TR>
+<TR VALIGN=TOP> <TD><I> inport</I></TD> <TD>host listening port</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> File does exist and told not to destroy it.
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> Told to destroy but operating system can not destroy
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+<DT> <B>Throws:</B> <A HREF="java.lang.SecurityException.html">SecurityException</A>
+<DD> Java error caused by called methods, most likely trying to create on a remote system
+</DL>
+</BLOCKQUOTE> <BR>
+
+
+<BR><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Methods</B></FONT></TD> </TR> </TABLE>
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="setLock"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="setLock(boolean)">setLock</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void setLock(boolean lockSwitch)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+locks/unlocks the whole table
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> lockSwitch</I></TD> <TD>- true - lock the table, false - unlock</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> most likely table already locked by another process
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="setRecordLock"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="setRecordLock(boolean)">setRecordLock</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void setRecordLock(boolean lockSwitch)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+locks/unlocks the current record.  You must read, write or  find the record before locking
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> lockSwitch</I></TD> <TD>- true - lock the record, false - unlock</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> most likely table or record is already locked by another process
+                                   record cursor not on a valid record - read a record first
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="useIndex"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="useIndex(java.lang.String)">useIndex</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void useIndex(<A HREF="java.lang.String.html">String</A> name)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+opens an index  associated with the database
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> indexname</I></TD> <TD>an existing index as defined in Server's dbfs.dbf</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> xBaseJ Fields defined in Index do not match Fields in database
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="find"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="find(java.lang.String)">find</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public boolean find(<A HREF="java.lang.String.html">String</A> keyString)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+used to find a record with an equal or greater string value
+ when done the record pointer and field contents will be changed
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> keyString</I></TD> <TD>a search string</TD></TR>
+</TABLE><P>
+<DT> <B>Returns:</B>
+<DD> boolean - true if record found key matches input key
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> xBaseJ no Indexs opened with database
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="findNext"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="findNext()">findNext</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void findNext()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+used to get the next  record in the Index list
+ when done the record pointer and field contents will be changed
+<P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> xBaseJ Index not opened or not part of the database
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="findPrev"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="findPrev()">findPrev</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void findPrev()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+used to get the previous record in the Index list
+ when done the record pointer and field contents will be changed
+<P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> xBaseJ Index not opened or not part of the database
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="fldcount"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="fldcount()">fldcount</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int fldcount() </PRE>
+<BLOCKQUOTE>
+<DL>
+<B>Note: fldcount() is deprecated</B>
+&#151 <I>use getFieldCount</I>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> int the number of Fields in a database
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="recno"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="recno()">recno</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int recno() </PRE>
+<BLOCKQUOTE>
+<DL>
+<B>Note: recno() is deprecated</B>
+&#151 <I>use getCurrentRecordNumber</I>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> int the current record number
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="reccount"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="reccount()">reccount</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int reccount()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<B>Note: reccount() is deprecated</B>
+&#151 <I>use getRecordCount</I>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> int the number of records in a database
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> logic error with server
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> logic error with server
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getFieldCount"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getFieldCount()">getFieldCount</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int getFieldCount() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> int the number of Fields in a database
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getCurrentRecordNumber"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getCurrentRecordNumber()">getCurrentRecordNumber</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int getCurrentRecordNumber() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> int the current record number
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getRecordCount"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getRecordCount()">getRecordCount</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int getRecordCount()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> int the number of records in a database
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> logic error with server
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> logic error with server
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="read"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="read()">read</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void read()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+used to read the next record, after the current record pointer, in the database
+ when done the record pointer and field contents will be changed
+<P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> usually the end of file condition
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="readPrev"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="readPrev()">readPrev</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void readPrev()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+used to read the previous record, before the current record pointer, in the database
+ when done the record pointer and field contents will be changed
+<P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> usually the top of file condition
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="gotoRecord"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="gotoRecord(long)">gotoRecord</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void gotoRecord(long recno)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+used to read a record at a particular place in the database
+ when done the record pointer and field contents will be changed
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> recno</I></TD> <TD>the relative position of the record to read</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> passed an negative number, 0 or value greater than the number of records in database
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="write"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="write()">write</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void write()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+used to write a new record in the database
+ when done the record pointer is at the end of the database
+<P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> any one of several errors
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="update"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="update()">update</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void update()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.io.IOException.html">IOException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+updates the record at the current position
+<P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> any one of several errors
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="delete"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="delete()">delete</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void delete()  throws <A HREF="java.io.IOException.html">IOException</A>, <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+marks the current records as deleted
+<P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> usually occurs when no record has been read
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="undelete"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="undelete()">undelete</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void undelete()  throws <A HREF="java.io.IOException.html">IOException</A>, <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+marks the current records as not deleted
+<P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> usually occurs when no record has been read.
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="close"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="close()">close</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void close()  throws <A HREF="java.io.IOException.html">IOException</A>, <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+closes the database  NOT FULLY IMPLEMENTED
+<P>
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> logic error with server
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getField"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getField(int)">getField</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public <A HREF="xBaseJ.Client.Field.html">Field</A> getField(int i)  throws <A HREF="java.lang.ArrayIndexOutOfBoundsException.html">ArrayIndexOutOfBoundsException</A>, <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> i</I></TD> <TD>Field number</TD></TR>
+</TABLE><P>
+<DT> <B>Returns:</B>
+<DD> Field object by its relative position
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> usually occurs when Field number is less than 1 or greater than the number of Fields
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getField"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getField(java.lang.String)">getField</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public <A HREF="xBaseJ.Client.Field.html">Field</A> getField(<A HREF="java.lang.String.html">String</A> name)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>, <A HREF="java.lang.ArrayIndexOutOfBoundsException.html">ArrayIndexOutOfBoundsException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> name</I></TD> <TD>Field name</TD></TR>
+</TABLE><P>
+<DT> <B>Returns:</B>
+<DD> Field object by its name in the database
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> Field name is not correct
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> Java error caused by called methods
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getName"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getName()">getName</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public <A HREF="java.lang.String.html">String</A> getName() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> String operating system name of the database
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="deleted"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="deleted()">deleted</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public boolean deleted()  throws <A HREF="java.io.IOException.html">IOException</A>, <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> boolean true if record is marked for deletion
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> logic error with server
+<DT> <B>Throws:</B> <A HREF="java.io.IOException.html">IOException</A>
+<DD> logic error with server
+</DL>
+</BLOCKQUOTE> <BR>
+
+
+<HR SIZE=1 ALIGN=left WIDTH="98%">
+<PRE>
+<A HREF="Packages.html">All Packages</A>  <A HREF="Package-xBaseJ.Client.html">This Package</A>  <A HREF="Tree.html">Class Hierarchy</A>  <A HREF="Search.html">Class Search</A>  <A HREF="AllNames.html">Index</A>
+</PRE>
+<FONT FACE="Arial,Helvetica" SIZE=-2>
+Freshly brewed Java API Documentation automatically generated with <A HREF="http://www.ualberta.ca/~tgee/polardoc">polardoc</A> Version 1.0.7
+<BR>
+</FONT>
+</BODY>
+</HTML>

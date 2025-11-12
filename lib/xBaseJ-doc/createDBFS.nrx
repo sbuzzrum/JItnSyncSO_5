@@ -1,0 +1,31 @@
+import java.awt.
+import xBaseJ.
+import xBaseJ.CharField
+
+options trace
+-- trace all
+numeric digits(20)
+aDBF = xBaseJ.DBF
+afld = xBaseJ.CharField
+bfld = xBaseJ.CharField
+
+
+aDBF = xBaseJ.DBF(String 'DBFs.DBF', boolean (1=1))
+afld = xBaseJ.CharField("id", 16)
+bfld = xBaseJ.CharField("name", 254)
+cfld = xBaseJ.CharField("relation", 16)
+
+
+ aDBF.addField(afld);
+ aDBF.addField(bfld);
+ aDBF.addField(cfld);
+do
+   say "# of records is " aDBF.getRecordCount()
+--catch ex=IOException
+--   say ex.getMessage
+finally
+   nop
+end
+
+exit
+

@@ -1,0 +1,203 @@
+<!-- Automatically generated with polardoc Version 1.0.7 on Fri Jan 08 08:46:53 EST 1999 -->
+<!-- xBaseJ.Client.LogicalField | Do not remove or edit this line! -->
+<STYLE TYPE="text/css"> <!-- A.nound {text-decoration:none; color:black} --> </STYLE>
+<HTML>
+<HEAD>
+<TITLE>
+  Class xBaseJ.Client.LogicalField
+</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#0000FF" ALINK="#0000FF">
+<A NAME="_top_"></A>
+<PRE>
+<A HREF="Packages.html">All Packages</A>  <A HREF="Package-xBaseJ.Client.html">This Package</A>  <A HREF="Tree.html">Class Hierarchy</A>  <A HREF="Search.html">Class Search</A>  <A HREF="AllNames.html">Index</A>
+</PRE>
+<HR SIZE=1 ALIGN=left WIDTH="98%">
+<B><FONT FACE="Arial,Helvetica" SIZE=+2>
+     Class xBaseJ.Client.LogicalField
+</FONT></B>
+<PRE>
+<A HREF="java.lang.Object.html">java.lang.Object</A>
+   |
+   +----<A HREF="xBaseJ.Client.Field.html">xBaseJ.Client.Field</A>
+           |
+           +----xBaseJ.Client.LogicalField
+</PRE>
+<P><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Summary</B></FONT></TD> </TR> </TABLE>
+<A NAME="_Summary_"></A>
+<PRE>
+public class  <STRONG>LogicalField</STRONG>
+     extends xBaseJ.Client.<A HREF="xBaseJ.Client.Field.html">Field</A>
+{
+          // Methods 7
+     public boolean <A HREF="#getBoolean()">getBoolean</A>();
+     public char <A HREF="#getChar()">getChar</A>();
+     public char <A HREF="#getType()">getType</A>();
+     public void <A HREF="#put(boolean)">put</A>(boolean);
+     public void <A HREF="#put(char)">put</A>(char) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     public void <A HREF="#put(java.lang.String)">put</A>(<A CLASS=nound HREF="java.lang.String.html">String</A>) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     <STRIKE>public char <A HREF="#type()">type</A>()</STRIKE>;
+}
+</PRE>
+<P>
+<DL>
+<P>
+xBaseJ - java access to dBase files 
+<p>Copyright 1997-1999 - American Coders, LTD  - Raleigh NC USA
+<p>All rights reserved
+<p>Currently supports only dBase III format DBF, DBT and NDX files 
+<p>                        dBase IV format DBF, DBT, MDX and NDX files 
+<p>American Coders, Ltd
+<br>P. O. Box 97462
+<br>Raleigh, NC  27615  USA
+<br>1-919-846-2014
+<br>http://www.americancoders.com
+<P>
+<DT><B>Version:</B>
+<DD>1.8.0
+<DT><B>Author:</B>
+<DD>
+Joe McVerry, American Coders Ltd.
+
+</DL>
+<P>
+<BR><BR>
+<BR><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Methods</B></FONT></TD> </TR> </TABLE>
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="type"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="type()">type</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public char type() </PRE>
+<BLOCKQUOTE>
+<DL>
+<B>Note: type() is deprecated</B>
+&#151 <I>use getType</I>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> char 'L' indicating logical field
+<DT><B>Overrides:</B>
+<DD><A HREF="xBaseJ.Client.Field.html#type()">type</A> in class <A HREF="xBaseJ.Client.Field.html">Field</A>
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getType"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getType()">getType</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public char getType() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> char 'L' indicating logical field
+<DT><B>Overrides:</B>
+<DD><A HREF="xBaseJ.Client.Field.html#getType()">getType</A> in class <A HREF="xBaseJ.Client.Field.html">Field</A>
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="put"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="put(java.lang.String)">put</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void put(<A HREF="java.lang.String.html">String</A> inValue)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+allows input of Y, y, T, t  and 1 for true, N, n, F, f, and 0 for false
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> String</I></TD> <TD>- one character length string</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> field value is not one of the allowable inputs
+<DT><B>Overrides:</B>
+<DD><A HREF="xBaseJ.Client.Field.html#put(java.lang.String)">put</A> in class <A HREF="xBaseJ.Client.Field.html">Field</A>
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="put"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="put(char)">put</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void put(char inValue)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+allows input of Y, y, T, t  and 1 for true, N, n, F, f, and 0 for false
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> char</I></TD> <TD>-  Y, y, T, t  and 1 for true, N, n, F, f, and 0 for false</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> field value is not one of the allowable inputs
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="put"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="put(boolean)">put</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void put(boolean inValue) </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+allows input true or false
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> boolean</I></TD> <TD>- true or false</TD></TR>
+</TABLE><P>
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getChar"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getChar()">getChar</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public char getChar() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> T for true and F for false
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getBoolean"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getBoolean()">getBoolean</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public boolean getBoolean() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> boolean true or false
+</DL>
+</BLOCKQUOTE> <BR>
+
+
+<HR SIZE=1 ALIGN=left WIDTH="98%">
+<PRE>
+<A HREF="Packages.html">All Packages</A>  <A HREF="Package-xBaseJ.Client.html">This Package</A>  <A HREF="Tree.html">Class Hierarchy</A>  <A HREF="Search.html">Class Search</A>  <A HREF="AllNames.html">Index</A>
+</PRE>
+<FONT FACE="Arial,Helvetica" SIZE=-2>
+Freshly brewed Java API Documentation automatically generated with <A HREF="http://www.ualberta.ca/~tgee/polardoc">polardoc</A> Version 1.0.7
+<BR>
+</FONT>
+</BODY>
+</HTML>

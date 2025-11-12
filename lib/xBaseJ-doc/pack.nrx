@@ -1,0 +1,21 @@
+import java.awt.
+import xBaseJ.
+
+options trace
+--trace all
+aDBF = xBaseJ.DBF
+
+if arg.length = 0 then signal Exception("Missing DBF file name")
+
+aDBF = xBaseJ.DBF(arg[0])
+
+loop i=1 to aDBF.reccount
+  aDBF.read
+  if aDBF.deleted then say "Will delete record " + i
+end
+
+say 'Total records before pack ' aDBF.reccount
+aDBF.pack()
+i = aDBF.reccount
+say 'Total records after pack ' aDBF.reccount
+

@@ -1,0 +1,27 @@
+# PROG TYPE= [1=ORMAWIN] [2=DIGISTAT]
+progType=2
+
+# RDBMS TYPE= [1=MSSQL] [2=ORACLE]
+rdbmsType=1
+
+rdbmsIpAddress=10.0.1.142
+
+# TIPICAL PORT [1433= MSSQL] [1521=ORACLE]
+rdbmsPort=1433
+
+rdbmsDbName=Itineris
+rdbmsUsername=Itineris
+rdbmsPassword=itineris99
+rdbmsDbUsername=dbo
+
+# Tabelle Itineris
+dbf_tra_sync=./tra_sync.dbf
+dbf_tkt_sync=./tkt_sync.dbf
+dbf_params=./ow20_pars.dbf
+
+logger_params=./logger.conf
+tx_only=no
+
+# usato solo per DIGISTAT
+use_timestamp=no
+

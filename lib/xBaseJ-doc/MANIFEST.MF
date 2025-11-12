@@ -1,0 +1,302 @@
+Manifest-Version: 1.0
+
+Name: xBaseJ/AllNames.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: HuUe87WDBi6oozWHm1nG20mLp6c=
+MD5-Digest: WMQhdMBN3iHWfqapeJ4B3A==
+
+Name: xBaseJ/Package-xBaseJ.Client.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: TuqVKNuD19AvE0XpJzIBbuL2fiw=
+MD5-Digest: 2fkD0Psd77OJDcFRpe84Cg==
+
+Name: xBaseJ/Package-xBaseJ.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: CfVoAWyZ9HpuVRBUn62zlifregI=
+MD5-Digest: MhBbxes31OAtZTwDJUrxMg==
+
+Name: xBaseJ/Packages.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: NkD6PblB4dCWf4jdTcTWhPVPokM=
+MD5-Digest: QhRR0uCe4EgCbGVRoQ2YJQ==
+
+Name: xBaseJ/Search.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: hJU7zsWV2MLAy17SkoqTKLsxzIc=
+MD5-Digest: YvjICKANy79HRgvSaY2cUQ==
+
+Name: xBaseJ/SourceLicense.htm
+Digest-Algorithms: SHA MD5 
+SHA-Digest: gwNVITsOVD+uFlLtd6HSE87fjws=
+MD5-Digest: Lw8EYtEdQgyM2FqPKQvB2w==
+
+Name: xBaseJ/Thumb-A.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: rb/EbxBwwV77SywSeT1OUcqrmRE=
+MD5-Digest: /0LeDnmSbxn75PyjfZ8Viw==
+
+Name: xBaseJ/Thumb-B.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: /qOYziK4zuQ9+VLBrxgbuk2q7nQ=
+MD5-Digest: J+mz1HEjUHY3UOwzyjqeQQ==
+
+Name: xBaseJ/Thumb-C.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 76X68UBaj08qOFi8QCZBCs7fXOg=
+MD5-Digest: +MAQlAUWicVlYiTpyxlilQ==
+
+Name: xBaseJ/Thumb-D.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MvhbAuVLPcJ42rdsu41ft55mW0w=
+MD5-Digest: CGBxvppe55b6YZWhB+2LvA==
+
+Name: xBaseJ/Thumb-F.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: NglCOiWEXimQlGaIMLCQaksC6X0=
+MD5-Digest: 9qJ+H5GnKDlZ/b021yTsRg==
+
+Name: xBaseJ/Thumb-G.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Dh9SFQoT8IIJHHYuCm8pIpM6Dt4=
+MD5-Digest: Hz0pETrPh+PuSRrSRteCtA==
+
+Name: xBaseJ/Thumb-H.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: VY7NVCWm5x/L1FzBYpyBSEppLds=
+MD5-Digest: FSZ34vyNsSty+BfvTXpwjw==
+
+Name: xBaseJ/Thumb-L.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: g7gkMrdoQPN/JElaoOyE3vAwLA4=
+MD5-Digest: tnw96BG3R3ewHBa6jJz3Sw==
+
+Name: xBaseJ/Thumb-M.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0sKmCy3SdloXCr4aQs2/6Tu1pi4=
+MD5-Digest: 4seqRs15GZ/2keQ13JSXtQ==
+
+Name: xBaseJ/Thumb-N.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JQRy82LLolqaQRE/KbRbbo6DvuY=
+MD5-Digest: NM8cvrbM2FMBnq9lo2GK7Q==
+
+Name: xBaseJ/Thumb-P.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: xo6TZS/RA3ycqjUsBG6kDrbIDLA=
+MD5-Digest: V66Rm7dFqq43ploeLClx2w==
+
+Name: xBaseJ/Thumb-R.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Vn2v0cZbhJaXzaeFZOOEkm+OGaI=
+MD5-Digest: wuKnEPXSR3tAxVPi1mlHXg==
+
+Name: xBaseJ/Thumb-S.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: rb9TThXyyQrn/KuBGs8d488JPqA=
+MD5-Digest: bJtVP3piSTVQjjQXolbbjw==
+
+Name: xBaseJ/Thumb-T.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: uijYRg+MTgldL5oJDVe0Apj+BCs=
+MD5-Digest: 5azBS+0vdU3f4o2I1Tyk8Q==
+
+Name: xBaseJ/Thumb-U.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: zpcyB8+sTTdu83szdcZ6vdIQG/Q=
+MD5-Digest: 4SYOur8aJkbiJUyF60+ILA==
+
+Name: xBaseJ/Thumb-V.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 69g4VhowY8IvEVFooj5rdKlnHtE=
+MD5-Digest: 784ppsS7c5SwxUQLoJxL0g==
+
+Name: xBaseJ/Thumb-W.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: oxpW4GFY+/lT4XFmfJ1k6z5ozPo=
+MD5-Digest: 9qwXIGmVulm6q8KFpt2huA==
+
+Name: xBaseJ/Thumb-X.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: EniH7jDTSKRR9IC5bC1xkHF34wM=
+MD5-Digest: pe9sdVXMDR9eiM8VyXEFqg==
+
+Name: xBaseJ/Tree.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 41O4a6hAGxJU5FqK0bDC5mCQ1HY=
+MD5-Digest: rvrDlR4pVJ/KXZOX5zNz9A==
+
+Name: xBaseJ/createDBFS.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: FXnRL3TCVc88Dt2WSbUDjoA58xc=
+MD5-Digest: 0CakvhgGt9D64N10g0T2KA==
+
+Name: xBaseJ/createDBFS.nrx
+Digest-Algorithms: SHA MD5 
+SHA-Digest: cON1BYBzjXIN/iKzUzgsDSkLsNc=
+MD5-Digest: HjjQIDL4B1uLC9YCSwTqHg==
+
+Name: xBaseJ/dbfHTML.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: kNAknzmJ0Z7C1m7IfO3dVu4o1sQ=
+MD5-Digest: qPX+1/ziin+gwbVzFCx9Nw==
+
+Name: xBaseJ/pack.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IOCm614z5FBKxTWH0+F/Mdns9os=
+MD5-Digest: lDdf92Y+WmHXLEY9xj2Muw==
+
+Name: xBaseJ/pack.nrx
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 0sPQ/O8oJsSDRuQLhmXTmCCobS8=
+MD5-Digest: umiwkFTvmdbh5Q7sGn7QQg==
+
+Name: xBaseJ/readme
+Digest-Algorithms: SHA MD5 
+SHA-Digest: vtXqMVkw5HVpdXesKzavsN9gxrA=
+MD5-Digest: /7e2u3ZU7mqM+XQtbC1pYg==
+
+Name: xBaseJ/registration.form
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 8gl6Yz8TZvGqlrGPyIWaB44AHOM=
+MD5-Digest: Xd1couCyQF8Fjvrn1r2XEw==
+
+Name: xBaseJ/test.dbf
+Digest-Algorithms: SHA MD5 
+SHA-Digest: C16MQpyT1yz/k0HniiTh5kf59uQ=
+MD5-Digest: h5VnQheu1+uyzt4LBXldQQ==
+
+Name: xBaseJ/test.dbt
+Digest-Algorithms: SHA MD5 
+SHA-Digest: /I8k9VUv7u6ymW0uAyz6+KromjU=
+MD5-Digest: YV3/PFp8Y3c5empoY+ag7A==
+
+Name: xBaseJ/testread.java
+Digest-Algorithms: SHA MD5 
+SHA-Digest: tJIhWp63mB8Piadi5myah5nqWhM=
+MD5-Digest: bnHlUiP09GecollTBQg/Qw==
+
+Name: xBaseJ/testread.nrx
+Digest-Algorithms: SHA MD5 
+SHA-Digest: /pIv6hQO22tlBrFq009ukYD0LLE=
+MD5-Digest: FmIQgbiK+v8a7wDrETdIjA==
+
+Name: xBaseJ/xBaseJ.CharField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: WLaVxnkLY8YdwBF3VAsdH3VMl6g=
+MD5-Digest: espiJTwHuvzkYytfX7mDXg==
+
+Name: xBaseJ/xBaseJ.Client.CharField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RKZMslGE50o0IwzPtnppE2PJ9DQ=
+MD5-Digest: 5+7s6xwKRBxD3PjBXSIZWQ==
+
+Name: xBaseJ/xBaseJ.Client.DBF.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: F+00iwuDYtjb4uAiwhJsZnOyux0=
+MD5-Digest: h4UUhF6HcUKYtMynIvKKwg==
+
+Name: xBaseJ/xBaseJ.Client.DateField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: KNwJ/blZKSqRtthj10F0WSyCI/U=
+MD5-Digest: cgdrqqOX4y6UpfH/Zqn/Xg==
+
+Name: xBaseJ/xBaseJ.Client.Field.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: y/hqVVPGMaXlHcSAzYzlYpPNQ0s=
+MD5-Digest: YAsAhePvfPHbzNs/69u4bA==
+
+Name: xBaseJ/xBaseJ.Client.FloatField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: ed/0VwOmApFmlcgOxRLhFbQPD6E=
+MD5-Digest: 6p6eRrn7zN3iyseuRlRVtw==
+
+Name: xBaseJ/xBaseJ.Client.LogicalField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: uM9FogqJx/dOdEAVkFjMHUGsq+Y=
+MD5-Digest: 2QzDWb3zmyX5riY+mUHYVg==
+
+Name: xBaseJ/xBaseJ.Client.MemoField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: T/2EGpVMDiV7Dx9NcQFz1h0SuMA=
+MD5-Digest: Nsyd/NF1R7urwbExL04bTg==
+
+Name: xBaseJ/xBaseJ.Client.NumField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: GDkvVluzMaFvBuWDHGSb4PB+xwU=
+MD5-Digest: ADxhPZz+NtVQFqWZP3f4EA==
+
+Name: xBaseJ/xBaseJ.Client.dbfShow.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: rQ+VHevX0tA6WyM1foVbgFAYo/s=
+MD5-Digest: 1LOt5SS2EGemjY1CONZ1xQ==
+
+Name: xBaseJ/xBaseJ.DBF.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 82qgfejRuR3TYZpRJrFBH6mIS48=
+MD5-Digest: y5zOwwOFylrM+wsFKeaxeg==
+
+Name: xBaseJ/xBaseJ.DateField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: IvZpbMsQcsebmK1Oy3WxNE646Yg=
+MD5-Digest: 8me3fVDOAlvABkxRH599nA==
+
+Name: xBaseJ/xBaseJ.Field.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: s4g9YhNbj1kA7t+UqEzB7x4sMJ0=
+MD5-Digest: B0P6OH5IK6k8wHBW/Kdc2w==
+
+Name: xBaseJ/xBaseJ.FloatField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: RwNe78MGhYPlIa87PQV+RWUMLF4=
+MD5-Digest: tdZx2nMMubyOsMIPncdgSw==
+
+Name: xBaseJ/xBaseJ.Index.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: MCyP7xOk/r102uLXwYcKdVWv/oM=
+MD5-Digest: LVzCA9ivc2YNze9fTnKggA==
+
+Name: xBaseJ/xBaseJ.LogicalField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: DTc9rPNuy+DO6j1L6Y+w8iA8a4Q=
+MD5-Digest: u+ZNGWqXVq9VrBYf7xMwQw==
+
+Name: xBaseJ/xBaseJ.MemoField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5XjkYVXvbsE5aNsedlw6aIn91nw=
+MD5-Digest: SQ2eGIm67Vu8L5gLg3qzGQ==
+
+Name: xBaseJ/xBaseJ.Message.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: GG1EERhwDVDyEs0ZLLOlKrvajHQ=
+MD5-Digest: JuZozcakgw3nYeHJnhXwBQ==
+
+Name: xBaseJ/xBaseJ.NumField.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 3U3lvnREjdsbjGuRGm1C4aJE2Vw=
+MD5-Digest: qvcGexM4qt/8ybVxoEfXSw==
+
+Name: xBaseJ/xBaseJ.Server.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 02z4UFlsIwN4tuuwjidLop+pENo=
+MD5-Digest: uBiaf8b4ClQRKBgEFzXcrg==
+
+Name: xBaseJ/xBaseJ.Util.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: qYnwwsdX6nRPQ7gwIZOyTmqvMk0=
+MD5-Digest: CoKpHWZ7ID4lQDNC2bV4Gg==
+
+Name: xBaseJ/xBaseJ.dbfShow.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: gCf8OVWoFmDY4gc2+Anvm7ZRZfE=
+MD5-Digest: NNtXpW4HEZPWN7rORZt0Fg==
+
+Name: xBaseJ/xBaseJ.jar
+Digest-Algorithms: SHA MD5 
+SHA-Digest: Iy7BBR2etqFKKjSl1i/aWrU7vBo=
+MD5-Digest: ycSTyfegOsgQHFM/4/Dupg==
+
+Name: xBaseJ/xBaseJ.xBaseJException.html
+Digest-Algorithms: SHA MD5 
+SHA-Digest: lzha41FqDdY99ok9t56a6NyzWko=
+MD5-Digest: Dv4P4a1mebkU9sIw98r0kw==
+

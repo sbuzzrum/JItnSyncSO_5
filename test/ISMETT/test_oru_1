@@ -1,0 +1,11 @@
+MSH|^~\&|ITN||PCS|PCS|20151214154500||ORU^R01|1448348994581|D|2.3.1
+PID|||BCODE_PAZ_01|||||||||||||||
+OBR|1|ISMS0003abc||STEMAIN^Processo di Sterilizzazione^STE|||||||||||||||||||||||1^^^20151214154500^^R
+OBX|1|ST|ST01^Lotto di produzione DM sterilizzato^STE||ISMS0003abc||||||F
+OBX|2|ST|ST02^Denominazione DM^STE||RESEZIONE COLICA LAPAROSCOPICA||||||F
+OBX|3|ST|ST03^Codice DM^STE||ISMS008004||||||F
+OBX|4|ST|ST04^Lotto Sterilizzazione: Sterilizzatrice, Lotto Numero, Lotto Data^STE||Autoclave 1^27638^13-12-2015||||||F
+OBX|5|ST|ST05^Data Produzione^STE||20151213||||||F
+OBX|6|ST|ST06^Data Scadenza^STE||20161213||||||F
+OBX|7|ST|ST07^Data Consegna^STE||20151213||||||F
+OBX|8|ST|ST08^Data Ora Utilizzo^STE||20151213154200||||||F

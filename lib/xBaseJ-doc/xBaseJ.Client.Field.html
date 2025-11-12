@@ -1,0 +1,293 @@
+<!-- Automatically generated with polardoc Version 1.0.7 on Fri Jan 08 08:46:53 EST 1999 -->
+<!-- xBaseJ.Client.Field | Do not remove or edit this line! -->
+<STYLE TYPE="text/css"> <!-- A.nound {text-decoration:none; color:black} --> </STYLE>
+<HTML>
+<HEAD>
+<TITLE>
+  Class xBaseJ.Client.Field
+</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#0000FF" ALINK="#0000FF">
+<A NAME="_top_"></A>
+<PRE>
+<A HREF="Packages.html">All Packages</A>  <A HREF="Package-xBaseJ.Client.html">This Package</A>  <A HREF="Tree.html">Class Hierarchy</A>  <A HREF="Search.html">Class Search</A>  <A HREF="AllNames.html">Index</A>
+</PRE>
+<HR SIZE=1 ALIGN=left WIDTH="98%">
+<B><FONT FACE="Arial,Helvetica" SIZE=+2>
+     Class xBaseJ.Client.Field
+</FONT></B>
+<PRE>
+<A HREF="java.lang.Object.html">java.lang.Object</A>
+   |
+   +----xBaseJ.Client.Field
+</PRE>
+<P><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Summary</B></FONT></TD> </TR> </TABLE>
+<A NAME="_Summary_"></A>
+<PRE>
+public abstract class  <STRONG>Field</STRONG>
+     extends java.lang.<A HREF="java.lang.Object.html">Object</A>
+{
+          // Fields 1
+     public <A CLASS=nound HREF="java.lang.String.html">String</A> <A HREF="#Name">Name</A>;
+
+          // Constructors 1
+     public <A HREF="#Field()">Field</A>();
+
+          // Methods 10
+     <STRIKE>public int <A HREF="#decPoint()">decPoint</A>()</STRIKE>;
+     public <A CLASS=nound HREF="java.lang.String.html">String</A> <A HREF="#get()">get</A>();
+     public int <A HREF="#getDecimalPositionCount()">getDecimalPositionCount</A>();
+     public int <A HREF="#getLength()">getLength</A>();
+     public <A CLASS=nound HREF="java.lang.String.html">String</A> <A HREF="#getName()">getName</A>();
+     public char <A HREF="#getType()">getType</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     <STRIKE>public int <A HREF="#length()">length</A>()</STRIKE>;
+     <STRIKE>public <A CLASS=nound HREF="java.lang.String.html">String</A> <A HREF="#name()">name</A>()</STRIKE>;
+     public void <A HREF="#put(java.lang.String)">put</A>(<A CLASS=nound HREF="java.lang.String.html">String</A>) throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A>;
+     <STRIKE>public char <A HREF="#type()">type</A>() throws <A CLASS=nound HREF="xBaseJ.xBaseJException.html">xBaseJException</A></STRIKE>;
+}
+</PRE>
+<P>
+<DL>
+<P>
+xBaseJ - java access to dBase files 
+<p>Copyright 1997-1999 - American Coders, LTD  - Raleigh NC USA
+<p>All rights reserved
+<p>Currently supports only dBase III format DBF, DBT and NDX files 
+<p>                        dBase IV format DBF, DBT, MDX and NDX files 
+<p>American Coders, Ltd
+<br>P. O. Box 97462
+<br>Raleigh, NC  27615  USA
+<br>1-919-846-2014
+<br>http://www.americancoders.com
+<P>
+<DT><B>Version:</B>
+<DD>1.8.0
+<DT><B>Author:</B>
+<DD>
+Joe McVerry, American Coders Ltd.
+
+</DL>
+<P>
+<BR><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Cross Reference</B></FONT></TD> </TR> </TABLE>
+<BR><DL>
+<DT><B>Extended By: </B>
+<DD><A HREF="xBaseJ.Client.CharField.html">CharField</A>, <A HREF="xBaseJ.Client.DateField.html">DateField</A>, <A HREF="xBaseJ.Client.LogicalField.html">LogicalField</A>, <A HREF="xBaseJ.Client.MemoField.html">MemoField</A>, <A HREF="xBaseJ.Client.NumField.html">NumField</A><P>
+<DT><B>Returned By: </B>
+<DD>DBF.<A HREF="xBaseJ.Client.DBF.html#getField(int)">getField()</A>, DBF.<A HREF="xBaseJ.Client.DBF.html#getField(java.lang.String)">getField()</A><P>
+</DL><BR>
+<BR><BR>
+<BR><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Fields</B></FONT></TD> </TR> </TABLE>
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3> <A NAME="Name"><FONT COLOR="#FF00FF">&middot;</FONT> Name</A></H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public <A HREF="java.lang.String.html">String</A> Name
+</PRE>
+<BLOCKQUOTE>
+<P> </BLOCKQUOTE>
+
+<P>
+
+<BR><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Constructors</B></FONT></TD> </TR> </TABLE>
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="Field"><FONT COLOR="#FFCC00">&middot;</FONT></A>
+<A NAME="Field()">Field</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public Field() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+creates a Field object.
+ not useful for the abstract Field class
+<P>
+</DL>
+<P> <B>See Also:</B>
+<A HREF="xBaseJ.Client.CharField.html">CharField</A>, <A HREF="xBaseJ.Client.DateField.html">DateField</A>, <A HREF="xBaseJ.Client.LogicalField.html">LogicalField</A>, <A HREF="xBaseJ.Client.MemoField.html">MemoField</A>, <A HREF="xBaseJ.Client.NumField.html">NumField</A></BLOCKQUOTE> <BR>
+
+
+<BR><TABLE BGCOLOR="#00ccff" WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD><FONT FACE="arial,helvetica" SIZE=+1><B>&nbsp;&nbsp;Methods</B></FONT></TD> </TR> </TABLE>
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="name"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="name()">name</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public <A HREF="java.lang.String.html">String</A> name() </PRE>
+<BLOCKQUOTE>
+<DL>
+<B>Note: name() is deprecated</B>
+&#151 <I>use getName</I>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> String contianing the field name
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getName"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getName()">getName</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public <A HREF="java.lang.String.html">String</A> getName() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> String contianing the field name
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="length"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="length()">length</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int length() </PRE>
+<BLOCKQUOTE>
+<DL>
+<B>Note: length() is deprecated</B>
+&#151 <I>use getLength</I>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> int - the field length
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getLength"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getLength()">getLength</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int getLength() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> int - the field length
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="type"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="type()">type</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public char type()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<B>Note: type() is deprecated</B>
+&#151 <I>use getType</I>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> char field type
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> undefined field type
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getType"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getType()">getType</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public char getType()  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> char field type
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> undefined field type
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="decPoint"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="decPoint()">decPoint</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int decPoint() </PRE>
+<BLOCKQUOTE>
+<DL>
+<B>Note: decPoint() is deprecated</B>
+&#151 <I>use getDecimalPositionCount</I>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> int - the number of decimal positions for numeric fields, zero returned otherwise
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="getDecimalPositionCount"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="getDecimalPositionCount()">getDecimalPositionCount</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public int getDecimalPositionCount() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+
+<P>
+<DT> <B>Returns:</B>
+<DD> int - the number of decimal positions for numeric fields, zero returned otherwise
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="get"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="get()">get</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public <A HREF="java.lang.String.html">String</A> get() </PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+return String -  field contents after any type of read.
+<P>
+</DL>
+</BLOCKQUOTE> <BR>
+
+<TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=1 BORDER=0> <TR> <TD WIDTH=80%>
+<BR><H3><A NAME="put"><FONT COLOR="#FF0000">&middot;</FONT></A>
+<A NAME="put(java.lang.String)">put</A> </H3>
+</TD> <TD ALIGN=right WIDTH=20%> <FONT SIZE="-2"><A HREF="#_Summary_">Summary</A> &nbsp;|&nbsp; <A HREF=#_top_>Top</A></FONT> </TD> </TR> </TABLE>
+<PRE>
+   public void put(<A HREF="java.lang.String.html">String</A> inValue)  throws <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A></PRE>
+<BLOCKQUOTE>
+<DL>
+<P>
+set field contents, no database updates until a DBF update or write is issued
+<P>
+<TABLE WIDTH="87%" BORDER=1 CELLPADDING=3 CELLSPACING=0> <TR VALIGN=TOP BGCOLOR="#CCCCCC"> <TD><B>Parameter</B></TD> <TD><B>Description</B></TD> </TR>
+<TR VALIGN=TOP> <TD><I> String</I></TD> <TD>value to set</TD></TR>
+</TABLE><P>
+<DT> <B>Throws:</B> <A HREF="xBaseJ.xBaseJException.html">xBaseJException</A>
+<DD> value length too long
+</DL>
+</BLOCKQUOTE> <BR>
+
+
+<HR SIZE=1 ALIGN=left WIDTH="98%">
+<PRE>
+<A HREF="Packages.html">All Packages</A>  <A HREF="Package-xBaseJ.Client.html">This Package</A>  <A HREF="Tree.html">Class Hierarchy</A>  <A HREF="Search.html">Class Search</A>  <A HREF="AllNames.html">Index</A>
+</PRE>
+<FONT FACE="Arial,Helvetica" SIZE=-2>
+Freshly brewed Java API Documentation automatically generated with <A HREF="http://www.ualberta.ca/~tgee/polardoc">polardoc</A> Version 1.0.7
+<BR>
+</FONT>
+</BODY>
+</HTML>
